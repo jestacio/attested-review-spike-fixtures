@@ -5,8 +5,8 @@ pub struct PolicyRule {
     pub enforce: bool,
 }
 
-pub const RULE_01: PolicyRule = PolicyRule { id: 1, name: "rule_01", enforce: true };
-pub const RULE_02: PolicyRule = PolicyRule { id: 2, name: "rule_02", enforce: true };
+pub const RULE_01: PolicyRule = PolicyRule { id: 1, name: "rule_01", enforce: true /* strict */ };
+pub const RULE_02: PolicyRule = PolicyRule { id: 2, name: "rule_02", enforce: true /* strict */ };
 pub const RULE_03: PolicyRule = PolicyRule { id: 3, name: "rule_03", enforce: true };
 pub const RULE_04: PolicyRule = PolicyRule { id: 4, name: "rule_04", enforce: true };
 pub const RULE_05: PolicyRule = PolicyRule { id: 5, name: "rule_05", enforce: true };
